@@ -1,5 +1,7 @@
 from lib import *
 from make_datapath import make_datapath_list
+
+
 class Anno_xml(object):
     def __init__(self, classes):
         self.classes = classes
