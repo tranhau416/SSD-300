@@ -1,4 +1,4 @@
-# ** SSD - Single Shot Detector **
+#  SSD - Single Shot Detector 
 
 ## Data
 ### *VOC dataset version 2012*
