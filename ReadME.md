@@ -2,7 +2,7 @@
 
 ## Data
 ### *VOC dataset version 2012*
-
+- Chạy prepare_data.py để tải tập dữ liệu VOC2012
 ## Offset
 - Default box:
 cx_d( center x default), cy_d, w_d( width_default), h_d(height_default)
