@@ -63,7 +63,7 @@ if __name__ == "__main__":
                               transform = DataTransform(input_shape, color_mean), anno_xml=Anno_xml(classes))
     val_dataset = MyDataset(val_image_list, val_annotation_list, phase="val",
                               transform=DataTransform(input_shape, color_mean), anno_xml=Anno_xml(classes))
-    print(len(train_dataset))
+    # print(len(train_dataset))
     # print(train_dataset.__getitem__(1))
 
     batch_size =4
@@ -77,6 +77,6 @@ if __name__ == "__main__":
 
     batch_iter = iter(dataloader_dict["val"])
     images, targets = next(batch_iter) # get 1 sample
-    print(images.shape)
+    print(images.size())
     print(len(targets))
-    print(targets[0])
+    print(targets[0].size())
