@@ -19,5 +19,5 @@ h= h_d.exp(0,2.delta(h))
 * Bước 3: Truyền input ảnh vào mạng SSD
 Default box(8732)x (Classes:21+ 4 offset) = 218,300
 * Bước 4: Lấy ra bb có confidence cao ( Lấy 200 bb cao nhất trong 8732 bd )
-* Bước 5: NMS( Non-Maximum Suppression) (lấy bb có giá trị cao nhất, khử đi những thằng trùng)
+* Bước 5: NMS( Non-Maximum Suppression) (lấy bb có giá trị cao nhất, khử đi những bounding box trùng hoặc gần trùng nhau)
 * Chọn một threshold cho confidence
