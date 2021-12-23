@@ -20,4 +20,4 @@ cx_d( center x default), cy_d, w_d( width_default), h_d(height_default)
 Default box(8732)x (Classes:21+ 4 offset) = 218,300
 * Bước 4: Lấy ra bb có confidence cao ( Lấy 200 bb cao nhất trong 8732 bd )
 * Bước 5: NMS( Non-Maximum Suppression) (lấy bb có giá trị cao nhất, khử đi những thằng trùng)
-* Chọn một threshold cho confidence
+* Bước 6: Chọn một threshold cho confidence
